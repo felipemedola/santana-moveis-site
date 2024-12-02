@@ -71,6 +71,7 @@ body {
     display: flex;
     align-items: center;
     line-height: 3em;
+    text-decoration: none;
 }
 
 .menu-lateral__link--ativo:active {
@@ -78,3 +79,24 @@ body {
     padding-left: 56px;
     border-left: 8px solid var(--cor-logo-primaria);
 }
+
+.menu-lateral__link--home:before {
+
+}
+
+.menu-lateral__link--sobre:before {
+
+}
+
+.menu-lateral__link--servicos:before {
+
+}
+
+.menu-lateral__link--projetos:before {
+
+}
+
+.menu-lateral__link--contato:before {
+
+}
+  
