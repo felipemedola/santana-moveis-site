@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+:root {
+    --cor-preto: #000000; /* Preto */
+    --cor-cinza-claro: #B0B0B0; /* Cinza Claro */
+    --cor-prata: #C0C0C0; /* Prata */
+    --cor-azul-claro: #4A90E2; /* Azul Claro */
+    --cor-branco-gelo: #F5F5F5; /* Branco Gelo */
+}
+
+body {
+    background-color: var(--cor-branco-gelo);
+    color: var(--cor-preto);
+    font-family: 'Open Sans', 'icones', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-azul-claro); /* Azul Claro para o cabeçalho */
+    color: var(--cor-branco-gelo);
+    padding: 8px 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}
+
+.logo {
+    width: 80%;
+}
+
+.cabecalho__menu i::before {
+    content: "\e904";
+    font-size: 24px;
+}
+
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-azul-claro); /* Mesma cor do cabeçalho */
+    color: var(--cor-branco-gelo);
+    width: 75vw;
+    height: 100vh;
+
+    position: absolute;
+    left: -100vw;
+    transition: .25s;
+}
+
+.menu-lateral--ativo {
+    left: 0;
+    transition: .25s;
+}
+
+.menu-lateral__logo {
+    width: 75%;
+}
