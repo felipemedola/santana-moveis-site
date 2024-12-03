@@ -28,7 +28,7 @@ body {
 }
 
 .cabecalho__menu {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--cor-preto);
 }
 
@@ -39,25 +39,26 @@ body {
 .menu-lateral {
     display: flex;
     flex-direction: column;
-    background-color: var(--cor-branco-quente); /* Mesma cor do cabeçalho */
+    background-color: var(--cor-branco-quente);
     color: var(--cor-cinza-escuro);
     width: 75vw;
     height: 100vh;
+    z-index: 9999;
 
     position: absolute;
     left: -100vw;
-    transition: .25s;
+    transition: left 0.3s ease, opacity 0.3s ease;
+}
+
+.menu-lateral--ativo {
+    left: 0;
+    transition: .65s;
 }
 
 .menu-lateral__logo {
     width: 65%;
     align-self: center;
     padding: 1rem;
-}
-
-.menu-lateral--ativo {
-    left: 0;
-    transition: .65s;
 }
 
 .menu-lateral__link {
@@ -80,4 +81,3 @@ body {
     padding-left: 3rem;
     border-left: 0.5rem solid var(--cor-logo-primaria);
 }
-  
