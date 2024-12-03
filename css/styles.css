@@ -30,6 +30,22 @@ body {
 .cabecalho__menu {
     font-size: 2rem;
     color: var(--cor-preto);
+    display: flex; /* Define o container flexível */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width: 3rem;
+    height: 3rem; 
+    padding: 0;
+}
+
+.icone-menu {
+    background-image: url('../assets/icones/menu.svg');
+    width: 2rem; 
+    height: 2rem; 
+    display: inline-block;
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .logo-mobile {
@@ -81,3 +97,4 @@ body {
     padding-left: 3rem;
     border-left: 0.5rem solid var(--cor-logo-primaria);
 }
+

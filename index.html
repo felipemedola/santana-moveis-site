@@ -13,38 +13,42 @@
 </head>
 <body> 
     <header class="cabecalho">
-        <button class="cabecalho__menu" aria-label="Menu"><i class="bi bi-list"></i></button>
+        <button class="cabecalho__menu" aria-label="Menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu">
+            <i class="bi bi-list"></i>
+        </button>
         <img src="./assets/img/logo-principal2.svg" alt="Logo da Santana Móveis Planejados" class="logo logo-mobile">
     </header>
 
-    <nav class="menu-lateral">
-        <img src="assets/img/logo-nav.svg" alt="Logotipo da Medola's Nike" class="menu-lateral__logo">
-    
-        <a href="#" class="menu-lateral__link menu-lateral__link--ativo">
-            <i class="bi bi-house-door"></i> Home
-        </a>
-    
-        <a href="#" class="menu-lateral__link menu-lateral__link--ativo">
-            <i class="bi bi-info-circle"></i> Sobre
-        </a>
-    
-        <a href="#" class="menu-lateral__link menu-lateral__link--ativo">
-            <i class="bi bi-briefcase"></i> Serviços
-        </a>
-    
-        <a href="#" class="menu-lateral__link menu-lateral__link--ativo">
-            <i class="bi bi-kanban"></i> Projetos
-        </a>
-    
-        <a href="#" class="menu-lateral__link menu-lateral__link--ativo">
-            <i class="bi bi-envelope"></i> Contato
-        </a>
-    </nav>
+    <!-- Menu Lateral com Bootstrap Offcanvas -->
+    <div class="offcanvas offcanvas-start menu-lateral" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel" style="max-width: 75% !important;">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasMenuLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <img src="assets/img/logo-nav.svg" alt="Logotipo da Medola's Nike" class="menu-lateral__logo">
+            <a href="#" class="menu-lateral__link">
+                <i class="bi bi-house-door"></i> Home
+            </a>
+            <a href="#" class="menu-lateral__link">
+                <i class="bi bi-info-circle"></i> Sobre
+            </a>
+            <a href="#" class="menu-lateral__link">
+                <i class="bi bi-briefcase"></i> Serviços
+            </a>
+            <a href="#" class="menu-lateral__link">
+                <i class="bi bi-kanban"></i> Projetos
+            </a>
+            <a href="#" class="menu-lateral__link">
+                <i class="bi bi-envelope"></i> Contato
+            </a>
+        </div>
+    </div>
 
     <main class="conteudo">
         <p>Oieee</p>
     </main>    
-    
+
     <script src="./js/main.js"></script>
 </body>
 </html>
