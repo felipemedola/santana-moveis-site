@@ -19,7 +19,7 @@ body {
 
 .cabecalho {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     background-color: var(--cor-branco-quente); /* Azul Claro para o cabeçalho */
     color: var(--cor-branco-gelo);
@@ -27,13 +27,13 @@ body {
     box-shadow: 0px 0.2rem 0.2rem rgba(0, 0, 0, 0.16);
 }
 
-.logo-mobile {
-    width: 80%;
+.cabecalho__menu {
+    font-size: 1.5rem;
+    color: var(--cor-preto);
 }
 
-.cabecalho__menu i::before {
-    content: "\e904";
-    font-size: 1.3rem;
+.logo-mobile {
+    width: 80%;
 }
 
 .menu-lateral {
