@@ -1,17 +1,21 @@
 :root {
-    --cor-preto: #000000; /* Preto */
-    --cor-cinza-claro: #B0B0B0; /* Cinza Claro */
-    --cor-cinza-escuro: #38362B; /* Cinza Escuro */
+    --cor-preto: #000000; 
+    --cor-cinza-claro: #B0B0B0; 
+    --cor-cinza-escuro: #38362B; 
     --cor-cinza-nav: #8b8e91;
-    --cor-prata: #C0C0C0; /* Prata */
-    --cor-branco-quente: #F4F1EB; /* Branco Quente */
-    --cor-branco-gelo: #F5F5F5; /* Branco Gelo */
+    --cor-prata: #C0C0C0; 
+    --cor-branco-quente: #F4F1EB; 
+    --cor-branco-gelo: #F5F5F5; 
     --cor-logo-primaria: #353327;
     --cor-logo-secundaria: #c2bdb0;
 }
 
-body {
+html {
     font-size: 18px;
+}
+
+body {
+    font-size: 1rem;
     color: var(--cor-preto);
     background-color: var(--cor-branco-gelo);
     font-family: 'Open Sans', 'icones', sans-serif;
@@ -21,7 +25,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: var(--cor-branco-quente); /* Azul Claro para o cabeçalho */
+    background-color: var(--cor-branco-quente); 
     color: var(--cor-branco-gelo);
     padding: 0.45rem 0.9rem;
     box-shadow: 0px 0.2rem 0.2rem rgba(0, 0, 0, 0.16);
@@ -30,9 +34,9 @@ body {
 .cabecalho__menu {
     font-size: 2rem;
     color: var(--cor-preto);
-    display: flex; /* Define o container flexível */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
     width: 3rem;
     height: 3rem; 
     padding: 0;
@@ -56,40 +60,38 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--cor-branco-quente);
-    color: var(--cor-cinza-escuro);
-    width: 75vw;
-    height: 100vh;
-    z-index: 9999;
-
-    position: absolute;
-    left: -100vw;
-    transition: left 0.3s ease, opacity 0.3s ease;
+    color: var(--cor-preto);
 }
 
-.menu-lateral--ativo {
-    left: 0;
-    transition: .65s;
+.offcanvas-header,
+.offcanvas-body,
+.menu-lateral__link {
+    color: var(--cor-preto);
 }
 
-.menu-lateral__logo {
-    width: 65%;
-    align-self: center;
-    padding: 1rem;
+.offcanvas-header {
+    margin: 1rem 0 0 2rem;
+}
+
+.offcanvas-header .btn-close {
+    margin: 0;
+    float: left;
+    font-size: 1.2rem;
+}
+
+.btn-close {
+    opacity: 1;
+}
+
+.offcanvas-links {
+    margin: 6rem 0 3rem;
 }
 
 .menu-lateral__link {
-    color: var(--cor-cinza-nav);
-    padding-left: 2rem;
     display: flex;
     align-items: center;
     line-height: 3rem;
     text-decoration: none;
-}
-
-.menu-lateral__link i {
-    margin-right: 0.5rem;
-    font-size: 1.2rem; 
-    vertical-align: middle;
 }
 
 .menu-lateral__link--ativo:active {
@@ -98,3 +100,70 @@ body {
     border-left: 0.5rem solid var(--cor-logo-primaria);
 }
 
+.icones-gerais {
+    padding: 0.6rem;
+    margin-left: 2rem;
+    margin-right: 0.4rem;
+    width: 1.3rem; 
+    height: 1.3rem; 
+    display: inline-block;
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icone-home {
+    background-image: url('../assets/icones/home.svg');
+}
+
+.icone-sobre {
+    background-image: url('../assets/icones/sobre.svg');
+}
+
+.icone-servicos {
+    background-image: url('../assets/icones/servicos.png');
+}
+
+.icone-projetos {
+    background-image: url('../assets/icones/projetos.png');
+}
+
+.icone-contato {
+    background-image: url('../assets/icones/contato.png');
+}
+
+.offcanvas-socialmedia {
+    margin-left: 2rem ;
+}
+
+.text-socialmedia {
+    margin-bottom: 0.4rem;
+}
+
+.socialmedia__link {
+    align-items: center;
+    text-decoration: none;
+}
+
+.icones-socialmedia {
+    padding: 0.8rem;
+    width: 1.3rem;
+    display: inline-block;
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.facebook-socialmedia {
+    margin-right: 0.1rem;
+    background-image: url('../assets/icones/rede-facebook.svg')
+}
+
+.instagram-socialmedia {
+    background-image: url('../assets/icones/rede-instagram.svg')
+}
+
+.menu-lateral__logo {
+    width: 100%;
+    margin-top: auto;
+}

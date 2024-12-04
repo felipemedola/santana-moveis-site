@@ -14,36 +14,51 @@
 <body> 
     <header class="cabecalho">
         <button class="cabecalho__menu" aria-label="Menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu">
-            <i class="bi bi-list"></i>
+            <i class="icone-menu"></i>
         </button>
         <img src="./assets/img/logo-principal2.svg" alt="Logo da Santana Móveis Planejados" class="logo logo-mobile">
     </header>
 
-    <!-- Menu Lateral com Bootstrap Offcanvas -->
     <div class="offcanvas offcanvas-start menu-lateral" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel" style="max-width: 75% !important;">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasMenuLabel">Menu</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body">
-            <img src="assets/img/logo-nav.svg" alt="Logotipo da Medola's Nike" class="menu-lateral__logo">
-            <a href="#" class="menu-lateral__link">
-                <i class="bi bi-house-door"></i> Home
-            </a>
-            <a href="#" class="menu-lateral__link">
-                <i class="bi bi-info-circle"></i> Sobre
-            </a>
-            <a href="#" class="menu-lateral__link">
-                <i class="bi bi-briefcase"></i> Serviços
-            </a>
-            <a href="#" class="menu-lateral__link">
-                <i class="bi bi-kanban"></i> Projetos
-            </a>
-            <a href="#" class="menu-lateral__link">
-                <i class="bi bi-envelope"></i> Contato
-            </a>
+    
+        <div class="offcanvas-body d-flex flex-column">
+            <!-- Links do menu lateral -->
+            <div class="offcanvas-links">
+                <a href="#" class="menu-lateral__link">
+                    <i class="icones-gerais icone-home"></i> Home
+                </a>
+                <a href="#" class="menu-lateral__link">
+                    <i class="icones-gerais icone-sobre"></i> Sobre
+                </a>
+                <a href="#" class="menu-lateral__link">
+                    <i class="icones-gerais icone-servicos"></i> Serviços
+                </a>
+                <a href="#" class="menu-lateral__link">
+                    <i class="icones-gerais icone-projetos"></i> Projetos
+                </a>
+                <a href="#" class="menu-lateral__link">
+                    <i class="icones-gerais icone-contato"></i> Contato
+                </a>
+            </div>
+    
+            <!-- Redes Sociais -->
+            <div class="offcanvas-socialmedia">
+                <p class="text-socialmedia">Conheça nossas <br>redes sociais:</p>
+                <a href="#" class="socialmedia__link">
+                    <i class="facebook-socialmedia icones-socialmedia"></i>
+                </a>
+                <a href="https://www.instagram.com/ssantanaplanejados" class="socialmedia__link">
+                    <i class="instagram-socialmedia icones-socialmedia"></i>
+                </a>
+            </div>
+    
+            <!-- Logotipo no final do menu -->
+            <img src="./assets/img/logo-principal2.svg" alt="Logo da Santana Móveis Planejados" class="menu-lateral__logo">
         </div>
-    </div>
+    </div>    
 
     <main class="conteudo">
         <p>Oieee</p>
