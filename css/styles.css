@@ -64,13 +64,12 @@ body {
 }
 
 .offcanvas-header,
-.offcanvas-body,
 .menu-lateral__link {
     color: var(--cor-preto);
 }
 
 .offcanvas-header {
-    margin: 1rem 0 0 2rem;
+    margin: 1rem 0 2rem 2rem;
 }
 
 .offcanvas-header .btn-close {
@@ -83,8 +82,8 @@ body {
     opacity: 1;
 }
 
-.offcanvas-links {
-    margin: 4rem 0 2.5rem;
+.offcanvas-body {
+    justify-content: space-between;
 }
 
 .menu-lateral__link {
@@ -166,5 +165,4 @@ body {
 
 .menu-lateral__logo {
     width: 100%;
-    margin-top: auto;
 }
