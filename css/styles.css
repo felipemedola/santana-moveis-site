@@ -73,7 +73,7 @@ body {
 }
 
 .offcanvas-header .btn-close {
-    margin: 0 0 0 1.5rem;
+    margin: 0;
     float: left;
     font-size: 1.2rem;
 }
