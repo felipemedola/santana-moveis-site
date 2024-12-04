@@ -69,11 +69,11 @@ body {
 }
 
 .offcanvas-header {
-    margin: 1rem 0 2rem 2rem;
+    padding: 0;
 }
 
 .offcanvas-header .btn-close {
-    margin: 0;
+    margin: 0 0 0 1.5rem;
     float: left;
     font-size: 1.2rem;
 }
@@ -89,14 +89,8 @@ body {
 .menu-lateral__link {
     display: flex;
     align-items: center;
-    line-height: 3rem;
+    line-height: 2.5rem;
     text-decoration: none;
-}
-
-.menu-lateral__link--ativo:active {
-    color: var(--cor-logo-primaria);
-    padding-left: 3rem;
-    border-left: 0.5rem solid var(--cor-logo-primaria);
 }
 
 .icones-gerais {
