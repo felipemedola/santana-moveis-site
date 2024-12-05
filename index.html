@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./assets/img/icone-navegador.svg" type="image/x-icon">
+    <link rel="icon" href="./assets/img/favicon.svg" type="image/x-icon">
     <title>Santana Móveis Planejados</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
@@ -12,50 +12,50 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <button class="cabecalho__menu" aria-label="Menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu">
-            <i class="icone-menu"></i>
+    <header class="header">
+        <button class="header__menu-btn" aria-label="Menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu">
+            <i class="menu-icon"></i>
         </button>
-        <img src="./assets/img/logo-principal2.svg" alt="Logo da Santana Móveis Planejados" class="logo logo-mobile">
+        <img src="./assets/img/logo-main.svg" alt="Logo da Santana Móveis Planejados" class="header__logo-mobile">
     </header>
 
-    <div class="offcanvas offcanvas-start menu-lateral" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel" style="max-width: 75% !important;">
+    <div class="offcanvas offcanvas-start sidebar" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel" style="max-width: 75% !important;">
         <div class="offcanvas-body d-flex flex-column">
             <div class="offcanvas-header">
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <!-- Links do menu lateral -->
             <div class="offcanvas-links">
-                <a href="#" class="menu-lateral__link">
-                    <i class="icones-gerais icone-home"></i> Home
+                <a href="#" class="sidebar__link">
+                    <i class="icon icon--home"></i> Home
                 </a>
-                <a href="#" class="menu-lateral__link">
-                    <i class="icones-gerais icone-sobre"></i> Sobre
+                <a href="#" class="sidebar__link">
+                    <i class="icon icon--about"></i> Sobre
                 </a>
-                <a href="#" class="menu-lateral__link">
-                    <i class="icones-gerais icone-servicos"></i> Serviços
+                <a href="#" class="sidebar__link">
+                    <i class="icon icon--services"></i> Serviços
                 </a>
-                <a href="#" class="menu-lateral__link">
-                    <i class="icones-gerais icone-projetos"></i> Projetos
+                <a href="#" class="sidebar__link">
+                    <i class="icon icon--projects"></i> Projetos
                 </a>
-                <a href="#" class="menu-lateral__link">
-                    <i class="icones-gerais icone-contato"></i> Contato
+                <a href="#" class="sidebar__link">
+                    <i class="icon icon--contact"></i> Contato
                 </a>
             </div>
     
             <!-- Redes Sociais -->
-            <div class="offcanvas-socialmedia">
-                <p class="text-socialmedia">Conheça nossas <br>redes sociais:</p>
-                <a href="https://www.facebook.com/share/15nEca6tbS/?mibextid=LQQJ4d" class="socialmedia__link">
-                    <i class="facebook-socialmedia icones-socialmedia"></i>
+            <div class="sidebar__social-media">
+                <p class="sidebar__social-text">Conheça nossas <br>redes sociais:</p>
+                <a href="https://www.facebook.com/share/15nEca6tbS/?mibextid=LQQJ4d" class="social-media__link">
+                    <i class="social-icon social-icon--facebook"></i>
                 </a>
-                <a href="https://www.instagram.com/ssantanaplanejados" class="socialmedia__link">
-                    <i class="instagram-socialmedia icones-socialmedia"></i>
+                <a href="https://www.instagram.com/ssantanaplanejados" class="social-media__link">
+                    <i class="social-icon social-icon--instagram"></i>
                 </a>
             </div>
     
             <!-- Logotipo no final do menu -->
-            <img src="./assets/img/logo-principal2.svg" alt="Logo da Santana Móveis Planejados" class="menu-lateral__logo">
+            <img src="./assets/img/logo-main.svg" alt="Logo da Santana Móveis Planejados" class="sidebar__logo">
         </div>
     </div>    
 
@@ -63,10 +63,9 @@
         <p>Oieee</p>
     </main>
 
-    <a href="https://wa.me/5519984445524?text=Ol%C3%A1!" target="_blank" class="whatsapp-button">
-        <img src="./assets/icones/whatsapp-fixed.svg" alt="botão WhatsApp" class="whatsapp-button__icon">
+    <a href="https://wa.me/5519984445524?text=Ol%C3%A1!" target="_blank" class="whatsapp-btn">
+        <img src="./assets/icones/whatsapp-fixed.svg" alt="botão WhatsApp" class="whatsapp-btn__icon">
     </a>
 
-    <script src="./js/main.js"></script>
-</body>
-</html>
+    <script src="./assets/js/main.js"></script>
+</bod
