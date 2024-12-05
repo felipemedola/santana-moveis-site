@@ -59,8 +59,52 @@
         </div>
     </div>    
 
-    <main class="conteudo">
-        <p>Oieee</p>
+    <main class="container">
+
+        <!-- Carrossel automático principal -->
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="5000">
+                <img src="./assets/images/kitchen-images.jpg" class="d-block w-100" alt="Cozinha planejada">
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="./assets/images/kitchen2-images.jpg" class="d-block w-100" alt="Cozinha planejada">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <!-- Cards destaques de projetos -->
+          <section class="project-cards">
+            <div class="project-cards__card">
+                <img class="project-cards__image" alt="Ícone desenho escritório e home office" src="./assets/icons/icon-card-1.svg">
+                <h1 class="project-cards__title">Móveis Planejados para Escritórios e Home Office</h1>
+                <a href="#" class="project-cards__button">
+                    <span class="project-cards__link">saiba mais</span>
+                </a>
+            </div>
+            <div class="project-cards__card project-cards__card-middle">
+                <img class="project-cards__image" alt="Ícone desenho escritório e home office" src="./assets/icons/icon-card-2.svg">
+                <h1 class="project-cards__title">Sua Cozinha Planejada nos mínimos detalhes</h1>
+                <a href="#" class="project-cards__button">
+                    <span class="project-cards__link">saiba mais</span>
+                </a>
+            </div>
+            <div class="project-cards__card">
+                <img class="project-cards__image" alt="Ícone desenho escritório e home office" src="./assets/icons/icon-card-3.svg">
+                <h1 class="project-cards__title">Que tal uma Sala de Jantar planejada?</h1>
+                <a href="#" class="project-cards__button">
+                    <span class="project-cards__link">saiba mais</span>
+                </a>
+            </div>
+          </section>
     </main>
 
     <a href="https://wa.me/5519984445524?text=Ol%C3%A1!" target="_blank" class="whatsapp-btn">
@@ -68,4 +112,4 @@
     </a>
 
     <script src="./assets/js/main.js"></script>
-</bod
+</body>
