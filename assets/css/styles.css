@@ -43,7 +43,7 @@ body {
 }
 
 .menu-icon {
-    background-image: url('../assets/icones/icon-menu.svg');
+    background-image: url('../icons/icon-menu.svg');
     width: 2rem; 
     height: 2rem; 
     display: inline-block;
@@ -108,23 +108,23 @@ body {
 }
 
 .icon--home {
-    background-image: url('../assets/icones/icon-home.svg');
+    background-image: url('../icons/icon-home.svg');
 }
 
 .icon--about {
-    background-image: url('../assets/icones/icon-about.svg');
+    background-image: url('../icons/icon-about.svg');
 }
 
 .icon--services {
-    background-image: url('../assets/icones/icon-services.png');
+    background-image: url('../icons/icon-services.png');
 }
 
 .icon--projects {
-    background-image: url('../assets/icones/icon-projects.png');
+    background-image: url('../icons/icon-projects.png');
 }
 
 .icon--contact {
-    background-image: url('../assets/icones/icon-contact.png');
+    background-image: url('../icons/icon-contact.png');
 }
 
 .sidebar__social-media {
@@ -152,11 +152,11 @@ body {
 
 .social-icon--facebook {
     margin-right: 0.1rem;
-    background-image: url('../assets/icones/icon-facebook.svg')
+    background-image: url('../icons/icon-facebook.svg')
 }
 
 .social-icon--instagram {
-    background-image: url('../assets/icones/icon-instagram.svg')
+    background-image: url('../icons/icon-instagram.svg')
 }
 
 .sidebar__logo {
