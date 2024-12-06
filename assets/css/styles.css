@@ -1,6 +1,6 @@
 :root {
     --cor-preto: #000000;
-    --cor-branco-quente: #F8F4ED; 
+    --cor-branco-quente: #E5E1DA; 
     --cor-branco-gelo: #F5F5F5; 
     --cor-bege-médio: #D6CBBE;
     --cor-dourado-claro: #BBAA91;
@@ -25,7 +25,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: var(--cor-branco-quente);
+    background-color: #E5E1DA;
     padding: 0.45rem 0.9rem;
 }
 
@@ -170,7 +170,7 @@ body {
 }
 
 .project-cards {
-    margin: 2rem 0;
+    margin: 1rem 0;
     padding: 1rem;
     box-sizing: border-box;
 }
@@ -195,20 +195,22 @@ body {
 
 .project-cards__title {
     font-size: 1.4rem;
-    margin: 1.2rem 0;
+    padding: 1.2rem 0;
+    margin: 0;
 }
 
 .project-cards__button {
     text-decoration: none;
-    text-transform: uppercase;
-    padding: 0.5rem 1.5rem;
-    border: 1px solid var(--cor-dourado-claro);
-    border-radius: 1rem;
 }
 
 .project-cards__link {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
     color: var(--cor-preto);
     font-size: 1rem;
+    border: 1px solid var(--cor-dourado-claro);
+    border-radius: 1rem;
+    text-transform: uppercase;
 }
 /* Main Final*/
 
