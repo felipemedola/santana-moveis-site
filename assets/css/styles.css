@@ -25,7 +25,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #E5E1DA;
+    background-color: var(--cor-branco-quente);
     padding: 0.45rem 0.9rem;
 }
 
