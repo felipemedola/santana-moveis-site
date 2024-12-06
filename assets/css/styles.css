@@ -1,7 +1,11 @@
 :root {
     --cor-preto: #000000;
-    --cor-branco-quente: #F4F1EB; 
+    --cor-branco-quente: #F8F4ED; 
     --cor-branco-gelo: #F5F5F5; 
+    --cor-bege-médio: #D6CBBE;
+    --cor-dourado-claro: #BBAA91;
+    --cor-verde-musgo: #6A7457;
+    --cor-verde-whatsapp: #25d366;
     --cor-logo-primaria: #353327;
     --cor-logo-secundaria: #c2bdb0;
 }
@@ -21,8 +25,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: var(--cor-branco-quente); 
-    color: var(--cor-branco-gelo);
+    background-color: var(--cor-branco-quente);
     padding: 0.45rem 0.9rem;
 }
 
@@ -167,7 +170,7 @@ body {
 }
 
 .project-cards {
-    margin-top: 2rem;
+    margin: 2rem 0;
     padding: 1rem;
     box-sizing: border-box;
 }
@@ -178,10 +181,11 @@ body {
 
 .project-cards__card {
     padding: 1.4rem;
-    background-color: var(--cor-branco-quente);
+    background-color: var(--cor-bege-médio);
     color: var(--cor-preto);
     border-radius: 1rem;
     text-align: center;
+    box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.15);
 }
 
 .project-cards__image {
@@ -198,7 +202,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     padding: 0.5rem 1.5rem;
-    border: 1px solid var(--cor-preto);
+    border: 1px solid var(--cor-dourado-claro);
     border-radius: 1rem;
 }
 
@@ -217,7 +221,7 @@ body {
     height: 60px;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-color: #25d366;
+    background-color: var(--cor-verde-whatsapp);
     display: flex;
     justify-content: center;
     align-items: center;
