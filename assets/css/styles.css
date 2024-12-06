@@ -170,8 +170,7 @@ body {
 }
 
 .project-cards {
-    margin: 1rem 0;
-    padding: 1rem;
+    margin: 2rem 1rem;
     box-sizing: border-box;
 }
 
@@ -211,6 +210,53 @@ body {
     border: 1px solid var(--cor-dourado-claro);
     border-radius: 1rem;
     text-transform: uppercase;
+}
+
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem 1rem;
+}
+
+.about-us__title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: var(--cor-bege-médio);
+}
+
+.about-us__text {
+    font-size: 1rem;
+    margin-block-end: 0.8rem;
+    color: var(--cor-preto)
+}
+
+.about-us__button {
+    width: 100%;
+    margin: 0 auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.about-us__link {
+    padding: 0.4rem 1.2rem;
+    color: var(--cor-preto);
+    background-color: var(--cor-bege-médio);
+    border-radius: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+}
+
+.about-us__image {
+    width: 100%;
+    box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.15);
 }
 /* Main Final*/
 
