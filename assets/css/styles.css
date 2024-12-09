@@ -197,6 +197,7 @@ body {
 
 .project-cards__title {
     font-size: 1.4rem;
+    font-weight: 500;
     font-family: var(--fonte-titulos);
     padding: 1.2rem 0;
     margin: 0;
@@ -225,7 +226,7 @@ body {
 
 .about-us__title {
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 1rem;
     color: var(--cor-bege-médio);
@@ -261,6 +262,38 @@ body {
 .about-us__image {
     width: 100%;
     box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.15);
+}
+
+
+.our-service {
+    font-family: var(--fonte-corpo);
+}
+
+.our-service__maincard {
+    text-align: center;
+}
+
+.our-service__box {
+    padding: 2.5rem 1rem;
+    background-color: var(--cor-branco-quente);
+}
+
+.our-service__mainimage {
+    box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.15);
+}
+
+.our-service__maintitle {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    font-family: var(--fonte-titulos);
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.our-service__maintext {
+    margin: 0;
+    font-size: 1.1rem;
 }
 /* Main Final*/
 
