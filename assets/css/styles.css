@@ -321,6 +321,46 @@ body {
 }
 
 
+.horizontal-line {
+    background-color: var(--cor-dourado-claro);
+    color: var(--cor-preto);
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.horizontal-line__title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: var(--fonte-titulos);
+}
+
+
+.info-projects {
+    background-image: url('../images/teste.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2.5rem 1rem;
+    color: var(--cor-preto);
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.info-projects__text {
+    margin-bottom: 1rem;
+}
+
+.info-projects__button {
+    display: inline-block;
+    background-color: var(--cor-branco-quente);
+    border: 1px solid var(--cor-preto);
+    border-radius: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.4rem 1.2rem;
+    color: var(--cor-preto);
+    font-weight: 500;
+}
 
 /* Main Final*/
 
