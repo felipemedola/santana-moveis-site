@@ -441,6 +441,60 @@ p, h1, h2, h3, h4, h5 , h6 {
     color: var(--cor-branco);
 }
 
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 2.5rem 1rem;
+}
+
+.contact__description {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.contact__social-networks {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.contact__social-networks-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--cor-logo-primaria);
+    text-transform: uppercase;
+}
+
+.contact__social-networks-list {
+    padding: 0 0 0 1rem;
+    margin: 0;
+}
+
+.contact__social-networks-option {
+    padding-block-end: 0.3rem;
+}
+
+.contact__social-networks-link {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-items: center;
+    text-decoration: none;
+}
+
+.contact__social-networks-image {
+    width: 25px;
+    height: 25px;
+}
+
+.contact__social-networks-name {
+    color: var(--cor-preto);
+    padding-left: 0.3rem;
+}
+
 /* Main Final*/
 
 /* Botão Whatsapp Começo*/
