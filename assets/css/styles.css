@@ -1,5 +1,6 @@
 :root {
     --cor-preto: #000000;
+    --cor-branco: #FFFFFF;
     --cor-branco-quente: #E5E1DA; 
     --cor-branco-gelo: #F5F5F5; 
     --cor-bege-médio: #D6CBBE;
@@ -22,6 +23,11 @@ body {
     color: var(--cor-preto);
     background-color: var(--cor-branco-gelo);
     font-family: var(--fonte-corpo);
+}
+
+p, h1, h2, h3, h4, h5 , h6 {
+    margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -361,7 +367,7 @@ body {
     flex-direction: column;
     gap: 1rem;
     padding: 2.5rem 1rem;
-    color: var(--cor-preto);
+    color: var(--cor-branco);
     font-size: 1.1rem;
     text-align: center;
     background-size: cover;
@@ -396,6 +402,43 @@ body {
     text-transform: uppercase;
     font-weight: 500;
     font-family: var(--fonte-titulos);
+}
+
+
+.expertise {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2.5rem 1rem;
+    background-color: var(--cor-branco-quente);
+}
+
+.expertise__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    padding: 2rem;
+    background-color: #000000;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.15);
+}
+
+.expertise__image {
+    width: 6rem;
+    height: 6rem;
+}
+
+.expertise__title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--cor-dourado-claro);
+}
+
+.expertise__text {
+    color: var(--cor-branco);
 }
 
 /* Main Final*/
