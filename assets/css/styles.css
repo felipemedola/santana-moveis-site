@@ -497,6 +497,25 @@ p, h1, h2, h3, h4, h5 , h6 {
     padding-left: 0.3rem;
 }
 
+
+.footer {
+    padding: 2.5rem 1rem;
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+}
+
+.footer__apresentacao {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer__logo-mobile {
+    width: 100%;
+}
+
 /* Main Final*/
 
 /* Botão Whatsapp Começo*/
