@@ -159,11 +159,11 @@ p, h1, h2, h3, h4, h5 , h6 {
 
 .social-icon--facebook {
     margin-right: 0.1rem;
-    background-image: url('../icons/icon-facebook.svg')
+    background-image: url('../icons/icon-facebook-preto.svg')
 }
 
 .social-icon--instagram {
-    background-image: url('../icons/icon-instagram.svg')
+    background-image: url('../icons/icon-instagram-preto.svg')
 }
 
 .sidebar__logo {
@@ -499,6 +499,10 @@ p, h1, h2, h3, h4, h5 , h6 {
 
 
 .footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
     padding: 2.5rem 1rem;
     background-color: var(--cor-preto);
     color: var(--cor-branco);
@@ -514,6 +518,57 @@ p, h1, h2, h3, h4, h5 , h6 {
 
 .footer__logo-mobile {
     width: 100%;
+}
+
+.footer__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__menu--link {
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-weight: 600;
+}
+
+.footer__informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer__informacoes--whatsapp {
+    vertical-align: middle;
+}
+
+.footer__informacoes--celular {
+    text-decoration: none;
+    color: var(--cor-branco);
+} 
+
+.footer__informacoes--redestitulo {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer__informacoes--redes {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+
+.footer__informacoes--icon {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.copyright {
+    border-top: 1px solid var(--cor-branco-quente);
+    padding-top: 2rem;
 }
 
 /* Main Final*/
