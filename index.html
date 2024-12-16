@@ -28,19 +28,19 @@
             </div>
             <!-- Links do menu lateral -->
             <div class="offcanvas-links">
-                <a href="#" class="sidebar__link">
+                <a href="#section-home" class="sidebar__link">
                     <i class="icon icon--home"></i> Home
                 </a>
-                <a href="#" class="sidebar__link">
+                <a href="#section-about" class="sidebar__link">
                     <i class="icon icon--about"></i> Sobre
                 </a>
-                <a href="#" class="sidebar__link">
+                <a href="#section-services" class="sidebar__link">
                     <i class="icon icon--services"></i> Serviços
                 </a>
-                <a href="#" class="sidebar__link">
+                <a href="#section-projects" class="sidebar__link">
                     <i class="icon icon--projects"></i> Projetos
                 </a>
-                <a href="#" class="sidebar__link">
+                <a href="#section-contact" class="sidebar__link">
                     <i class="icon icon--contact"></i> Contato
                 </a>
             </div>
@@ -57,12 +57,13 @@
             </div>
     
             <!-- Logotipo no final do menu -->
-            <img src="./assets/images/logo-main.svg" alt="Logo da Santana Móveis Planejados" class="sidebar__logo">
+            <img src="./assets/images/logo-main-black.svg" alt="Logo da Santana Móveis Planejados" class="sidebar__logo">
         </div>
     </div>    
 
     <main class="container">
 
+      <section id="section-home">
         <!-- Carrossel automático principal -->
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -85,30 +86,32 @@
 
         <!-- Cards destaques de projetos -->
         <section class="project-cards">
-            <div class="project-cards__card">
-                <img class="project-cards__image" alt="Ícone desenho escritório e home office" src="./assets/icons/icon-card-1.svg">
-                <h1 class="project-cards__title">Móveis Planejados para Escritórios e Home Office</h1>
-                <a href="#" class="project-cards__button">
-                    <span class="project-cards__link">saiba mais</span>
-                </a>
-            </div>
-            <div class="project-cards__card">
-                <img class="project-cards__image" alt="Ícone desenho escritório e home office" src="./assets/icons/icon-card-2.svg">
-                <h1 class="project-cards__title">Sua Cozinha Planejada nos mínimos detalhes</h1>
-                <a href="#" class="project-cards__button">
-                    <span class="project-cards__link">saiba mais</span>
-                </a>
-            </div>
-            <div class="project-cards__card">
-                <img class="project-cards__image" alt="Ícone desenho escritório e home office" src="./assets/icons/icon-card-3.svg">
-                <h1 class="project-cards__title">Que tal uma Sala de Jantar planejada?</h1>
-                <a href="#" class="project-cards__button">
-                    <span class="project-cards__link">saiba mais</span>
-                </a>
-            </div>
+          <div class="project-cards__card">
+              <img class="project-cards__image" alt="Ícone desenho escritório e home office" src="./assets/icons/icon-card-1.svg">
+              <h1 class="project-cards__title">Móveis Planejados para Escritórios e Home Office</h1>
+              <a href="#" class="project-cards__button">
+                  <span class="project-cards__link">saiba mais</span>
+              </a>
+          </div>
+          <div class="project-cards__card">
+              <img class="project-cards__image" alt="Ícone desenho escritório e home office" src="./assets/icons/icon-card-2.svg">
+              <h1 class="project-cards__title">Sua Cozinha Planejada nos mínimos detalhes</h1>
+              <a href="#" class="project-cards__button">
+                  <span class="project-cards__link">saiba mais</span>
+              </a>
+          </div>
+          <div class="project-cards__card">
+              <img class="project-cards__image" alt="Ícone desenho escritório e home office" src="./assets/icons/icon-card-3.svg">
+              <h1 class="project-cards__title">Que tal uma Sala de Jantar planejada?</h1>
+              <a href="#" class="project-cards__button">
+                  <span class="project-cards__link">saiba mais</span>
+              </a>
+          </div>
         </section>
+      </section>
 
         <!-- Informações sobre nós -->
+      <section id="section-about">
         <article class="about-us">
             <h2 class="about-us__title">Sobre Nós</h2>
             <p class="about-us__text">Na Marcenaria Santana Móveis Planejados, somos especialistas em criar móveis sob medida que aliam beleza, funcionalidade e durabilidade. Com 12 anos de experiência, oferecemos projetos exclusivos para residências, escritórios e comércios, sempre com materiais de alta qualidade e um design personalizado.</p>
@@ -120,251 +123,297 @@
             </div>
             <img src="./assets/images/about-us--image.webp" alt="Sidney, marceneiro da Santana Móveis Planejados" class="about-us__image">
         </article>
+      </section>
 
-        <!-- Informações dos Serviços -->
-         <section class="our-service">
-            <div class="our-service__maincard our-service__boxone">
-                <img src="./assets/images/services-main-logo.svg" alt="Logo da Santana Móveis Planejados" class="our-service__mainimage">
-                <h3 class="our-service__maintitle">nossos serviços</h3>
-                <p class="our-service__maintext">Veja de quantas formas podemos ajudar você a deixar a sua casa ou o seu local de trabalho mais aconchegante e funcional.</p>
-            </div>
-            <div class="our-service__card our-service__boxtwo">
-                <img src="./assets/images/services-home-office.svg" alt="Home Offices planejados" class="our-service__image">
-                <div class="our-service__description">
-                  <h3 class="our-service__title">Móveis Planejados para Escritórios e Home Office</h3>
-                  <p class="our-service__text">Planejados e pensados para o bom funcionamento do ambiente, como um todo.</p>
-                  <p class="our-service__text">Planejar estes espaços contribui para o ganho de produtividade e conforto de colaboradores e clientes.</p>
-                </div>
-                <div id="carouselExampleInterval" class="carousel slide our-service__carousel" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active" data-bs-interval="5000">
-                        <img src="./assets/images/moveisplanejados-escritorio1.webp" class="d-block w-90" alt="Escritorio planejado">
-                      </div>
-                      <div class="carousel-item" data-bs-interval="5000">
-                        <img src="./assets/images/moveisplanejados-escritorio2.webp" class="d-block w-90" alt="Escritorio planejado">
-                      </div>
-                      <div class="carousel-item" data-bs-interval="5000">
-                        <img src="./assets/images/moveisplanejados-escritorio3.webp" class="d-block w-90" alt="Escritorio planejado">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-            <div class="our-service__card our-service__boxone">
-                <img src="./assets/images/services-cozinha.svg" alt="Cozinhas planejadas" class="our-service__image">
-                <div class="our-service__description">
-                  <h3 class="our-service__title">Cozinha: o coração da sua casa, do jeito que sempre sonhou.</h3>
-                  <p class="our-service__text">A cozinha planejada permite que o ambiente tenha seu espaço otimizado, com lugar certo para tudo.</p>
-                  <p class="our-service__text">Inspire-se e viva os momentos mais saborosos da sua vida, aqui. Planejamos sua cozinha para otimizar espaço e garantir que cada utensílio tenha seu devido lugar.</p>
-                  <p class="our-service__text">Pensamos nos mínimos detalhes, para que o seu sonho seja totalmente real.</p>
-                </div>
-                <div id="carouselExampleInterval" class="carousel slide our-service__carousel" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active" data-bs-interval="5000">
-                        <img src="./assets/images/moveisplanejados-cozinha1.webp" class="d-block w-90" alt="Cozinha planejada">
-                      </div>
-                      <div class="carousel-item" data-bs-interval="5000">
-                        <img src="./assets/images/moveisplanejados-cozinha2.webp" class="d-block w-90" alt="Cozinha planejada">
-                      </div>
-                      <div class="carousel-item" data-bs-interval="5000">
-                        <img src="./assets/images/moveisplanejados-cozinha3.webp" class="d-block w-90" alt="Cozinha planejada">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-            <div class="our-service__card our-service__boxtwo">
-                <img src="./assets/images/services-home-office.svg" alt="Home Offices planejados" class="our-service__image">
-                <div class="our-service__description">
-                  <h3 class="our-service__title">Sala de jantar: layout perfeito para eternizar momentos.</h3>
-                  <p class="our-service__text">Adicione mais dinamismo e beleza ao seu lar. Planejamos e escolhemos elementos que transformam seus espaços por completo. Ganhe versatilidade, sofisticação, aconchego e muito mais.</p>
-                  <p class="our-service__text">Encontre sua personalidade em cada ambiente.</p>
-                </div>
-                <div id="carouselExampleInterval" class="carousel slide our-service__carousel" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active" data-bs-interval="5000">
-                        <img src="./assets/images/moveisplanejados-saladejantar1.webp" class="d-block w-90" alt="Sala de jantar planejada">
-                      </div>
-                      <div class="carousel-item" data-bs-interval="5000">
-                        <img src="./assets/images/moveisplanejados-saladejantar2.webp" class="d-block w-90" alt="Sala de jantar planejada">
-                      </div>
-                      <div class="carousel-item" data-bs-interval="5000">
-                        <img src="./assets/images/moveisplanejados-saladejantar3.webp" class="d-block w-90" alt="Sala de jantar planejada">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-            <div class="our-service__card our-service__boxone">
-                <img src="./assets/images/services-quarto.svg" alt="Cozinhas planejadas" class="our-service__image">
-                <div class="our-service__description">
-                  <h3 class="our-service__title">Quartos: descanse do jeito que você merece.</h3>
-                  <p class="our-service__text">Encontre nos móveis planejados a solução ideal para o quarto que você sempre quis. Personalizamos todos os detalhes, para otimizar espaços e aproveitar cada centímetro do seu cômodo.</p>
-                  <p class="our-service__text">Tornamos o seu quarto em um ambiente funcional, independentemente das dimensões do cômodo. Transformamos espaços curtos, em um quarto funcional.</p>
-                </div>
-                <div id="carouselExampleInterval" class="carousel slide our-service__carousel" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active" data-bs-interval="5000">
-                        <img src="./assets/images/moveisplanejados-quarto1.webp" class="d-block w-90" alt="Cozinha planejada">
-                      </div>
-                      <div class="carousel-item" data-bs-interval="5000">
-                        <img src="./assets/images/moveisplanejados-quarto2.webp" class="d-block w-90" alt="Cozinha planejada">
-                      </div>
-                      <div class="carousel-item" data-bs-interval="5000">
-                        <img src="./assets/images/moveisplanejados-quarto3.webp" class="d-block w-90" alt="Cozinha planejada">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-            <div class="our-service__card our-service__boxtwo">
-                <img src="./assets/images/services-banheiro.svg" alt="Home Offices planejados" class="our-service__image">
-                <div class="our-service__description">
-                  <h3 class="our-service__title">Banheiros lindos, com o cuidado que você espera.</h3>
-                  <p class="our-service__text">Em banheiros, sejam quais forem as dimensões, pensamos o ambiente de maneira estratégica, para aproveitar seu tamanho. Cada detalhe é pensado para despertar sensações únicas. O uso estratégico de espelhos também contribui para aumentar a sensação de amplitude no ambiente.</p>
-                  <p class="our-service__text">Seja em banheiros menores ou maiores, entregamos o charme e a perfeição que você espera.</p>
-                </div>
-                <div id="carouselExampleInterval" class="carousel slide our-service__carousel" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active" data-bs-interval="5000">
-                        <img src="./assets/images/moveisplanejados-banheiro1.webp" class="d-block w-90" alt="Sala de jantar planejada">
-                      </div>
-                      <div class="carousel-item" data-bs-interval="5000">
-                        <img src="./assets/images/moveisplanejados-banheiro2.webp" class="d-block w-90" alt="Sala de jantar planejada">
-                      </div>
-                      <div class="carousel-item" data-bs-interval="5000">
-                        <img src="./assets/images/moveisplanejados-banheiro3.webp" class="d-block w-90" alt="Sala de jantar planejada">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-            <div class="our-service__card our-service__boxone">
-                <img src="./assets/images/services-sala-de-estar.svg" alt="Cozinhas planejadas" class="our-service__image">
-                <div class="our-service__description">
-                  <h3 class="our-service__title">Sala de estar: sua casa, seu estilo.</h3>
-                  <p class="our-service__text">Um ambiente planejado não é só aquele que possui móveis feitos sob medida, mas sim, um cômodo pensado como um todo. Decoração, cor, estilo e muito mais. E o melhor, é personalizado e pensado para ter os seus gostos, o seu estilo.</p>
-                </div>
-                <div id="carouselExampleInterval" class="carousel slide our-service__carousel" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active" data-bs-interval="5000">
-                        <img src="./assets/images/moveisplanejados-saladeestar1.webp" class="d-block w-90" alt="Cozinha planejada">
-                      </div>
-                      <div class="carousel-item" data-bs-interval="5000">
-                        <img src="./assets/images/moveisplanejados-saladeestar2.webp" class="d-block w-90" alt="Cozinha planejada">
-                      </div>
-                      <div class="carousel-item" data-bs-interval="5000">
-                        <img src="./assets/images/moveisplanejados-saladeestar3.webp" class="d-block w-90" alt="Cozinha planejada">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-         </section>
-
-          <div class="horizontal-line">
-            <h4 class="horizontal-line__title">obras de arte em madeira</h4>
+      <!-- Informações dos Serviços -->
+      <section id="section-services">
+        <section class="our-service">
+          <div class="our-service__maincard our-service__boxone">
+              <img src="./assets/images/services-main-logo.svg" alt="Logo da Santana Móveis Planejados" class="our-service__mainimage">
+              <h3 class="our-service__maintitle">nossos serviços</h3>
+              <p class="our-service__maintext">Veja de quantas formas podemos ajudar você a deixar a sua casa ou o seu local de trabalho mais aconchegante e funcional.</p>
           </div>
+        </section>
+      </section>
+      <section id="section-projects">
+        <section class="our-service">
+          <div class="our-service__card our-service__boxtwo">
+              <img src="./assets/images/services-home-office.svg" alt="Home Offices planejados" class="our-service__image">
+              <div class="our-service__description">
+                <h3 class="our-service__title">Móveis Planejados para Escritórios e Home Office</h3>
+                <p class="our-service__text">Planejados e pensados para o bom funcionamento do ambiente, como um todo.</p>
+                <p class="our-service__text">Planejar estes espaços contribui para o ganho de produtividade e conforto de colaboradores e clientes.</p>
+              </div>
+              <div id="carouselExampleInterval" class="carousel slide our-service__carousel" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                      <img src="./assets/images/moveisplanejados-escritorio1.webp" class="d-block w-90" alt="Escritorio planejado">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="./assets/images/moveisplanejados-escritorio2.webp" class="d-block w-90" alt="Escritorio planejado">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="./assets/images/moveisplanejados-escritorio3.webp" class="d-block w-90" alt="Escritorio planejado">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
+          <div class="our-service__card our-service__boxone">
+              <img src="./assets/images/services-cozinha.svg" alt="Cozinhas planejadas" class="our-service__image">
+              <div class="our-service__description">
+                <h3 class="our-service__title">Cozinha: o coração da sua casa, do jeito que sempre sonhou.</h3>
+                <p class="our-service__text">A cozinha planejada permite que o ambiente tenha seu espaço otimizado, com lugar certo para tudo.</p>
+                <p class="our-service__text">Inspire-se e viva os momentos mais saborosos da sua vida, aqui. Planejamos sua cozinha para otimizar espaço e garantir que cada utensílio tenha seu devido lugar.</p>
+                <p class="our-service__text">Pensamos nos mínimos detalhes, para que o seu sonho seja totalmente real.</p>
+              </div>
+              <div id="carouselExampleInterval" class="carousel slide our-service__carousel" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                      <img src="./assets/images/moveisplanejados-cozinha1.webp" class="d-block w-90" alt="Cozinha planejada">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="./assets/images/moveisplanejados-cozinha2.webp" class="d-block w-90" alt="Cozinha planejada">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="./assets/images/moveisplanejados-cozinha3.webp" class="d-block w-90" alt="Cozinha planejada">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
+          <div class="our-service__card our-service__boxtwo">
+              <img src="./assets/images/services-home-office.svg" alt="Home Offices planejados" class="our-service__image">
+              <div class="our-service__description">
+                <h3 class="our-service__title">Sala de jantar: layout perfeito para eternizar momentos.</h3>
+                <p class="our-service__text">Adicione mais dinamismo e beleza ao seu lar. Planejamos e escolhemos elementos que transformam seus espaços por completo. Ganhe versatilidade, sofisticação, aconchego e muito mais.</p>
+                <p class="our-service__text">Encontre sua personalidade em cada ambiente.</p>
+              </div>
+              <div id="carouselExampleInterval" class="carousel slide our-service__carousel" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                      <img src="./assets/images/moveisplanejados-saladejantar1.webp" class="d-block w-90" alt="Sala de jantar planejada">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="./assets/images/moveisplanejados-saladejantar2.webp" class="d-block w-90" alt="Sala de jantar planejada">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="./assets/images/moveisplanejados-saladejantar3.webp" class="d-block w-90" alt="Sala de jantar planejada">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
+          <div class="our-service__card our-service__boxone">
+              <img src="./assets/images/services-quarto.svg" alt="Cozinhas planejadas" class="our-service__image">
+              <div class="our-service__description">
+                <h3 class="our-service__title">Quartos: descanse do jeito que você merece.</h3>
+                <p class="our-service__text">Encontre nos móveis planejados a solução ideal para o quarto que você sempre quis. Personalizamos todos os detalhes, para otimizar espaços e aproveitar cada centímetro do seu cômodo.</p>
+                <p class="our-service__text">Tornamos o seu quarto em um ambiente funcional, independentemente das dimensões do cômodo. Transformamos espaços curtos, em um quarto funcional.</p>
+              </div>
+              <div id="carouselExampleInterval" class="carousel slide our-service__carousel" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                      <img src="./assets/images/moveisplanejados-quarto1.webp" class="d-block w-90" alt="Cozinha planejada">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="./assets/images/moveisplanejados-quarto2.webp" class="d-block w-90" alt="Cozinha planejada">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="./assets/images/moveisplanejados-quarto3.webp" class="d-block w-90" alt="Cozinha planejada">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
+          <div class="our-service__card our-service__boxtwo">
+              <img src="./assets/images/services-banheiro.svg" alt="Home Offices planejados" class="our-service__image">
+              <div class="our-service__description">
+                <h3 class="our-service__title">Banheiros lindos, com o cuidado que você espera.</h3>
+                <p class="our-service__text">Em banheiros, sejam quais forem as dimensões, pensamos o ambiente de maneira estratégica, para aproveitar seu tamanho. Cada detalhe é pensado para despertar sensações únicas. O uso estratégico de espelhos também contribui para aumentar a sensação de amplitude no ambiente.</p>
+                <p class="our-service__text">Seja em banheiros menores ou maiores, entregamos o charme e a perfeição que você espera.</p>
+              </div>
+              <div id="carouselExampleInterval" class="carousel slide our-service__carousel" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                      <img src="./assets/images/moveisplanejados-banheiro1.webp" class="d-block w-90" alt="Sala de jantar planejada">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="./assets/images/moveisplanejados-banheiro2.webp" class="d-block w-90" alt="Sala de jantar planejada">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="./assets/images/moveisplanejados-banheiro3.webp" class="d-block w-90" alt="Sala de jantar planejada">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
+          <div class="our-service__card our-service__boxone">
+              <img src="./assets/images/services-sala-de-estar.svg" alt="Cozinhas planejadas" class="our-service__image">
+              <div class="our-service__description">
+                <h3 class="our-service__title">Sala de estar: sua casa, seu estilo.</h3>
+                <p class="our-service__text">Um ambiente planejado não é só aquele que possui móveis feitos sob medida, mas sim, um cômodo pensado como um todo. Decoração, cor, estilo e muito mais. E o melhor, é personalizado e pensado para ter os seus gostos, o seu estilo.</p>
+              </div>
+              <div id="carouselExampleInterval" class="carousel slide our-service__carousel" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                      <img src="./assets/images/moveisplanejados-saladeestar1.webp" class="d-block w-90" alt="Cozinha planejada">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="./assets/images/moveisplanejados-saladeestar2.webp" class="d-block w-90" alt="Cozinha planejada">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="./assets/images/moveisplanejados-saladeestar3.webp" class="d-block w-90" alt="Cozinha planejada">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
+        </section>
+      </section>
 
-          <article class="info-projects">
-            <p class="info-projects__text">Em cada projeto, entregamos a certeza de <strong>espaços seguros, especiais</strong> e <strong>únicos.</strong> Estamos comprometidos em transmitir <strong>alegria ao seu lar.</strong></p>
-            <div class="info-projects__buttonbg">
-              <a href="https://wa.me/5519984445524?text=Ol%C3%A1!" class="info-projects__button">
-                  <span class="info-projects__link">contato</span>
+      <div class="horizontal-line">
+        <h4 class="horizontal-line__title">obras de arte em madeira</h4>
+      </div>
+
+      <article class="info-projects">
+        <p class="info-projects__text">Em cada projeto, entregamos a certeza de <strong>espaços seguros, especiais</strong> e <strong>únicos.</strong> Estamos comprometidos em transmitir <strong>alegria ao seu lar.</strong></p>
+        <div class="info-projects__buttonbg">
+          <a href="https://wa.me/5519984445524?text=Ol%C3%A1!" class="info-projects__button">
+              <span class="info-projects__link">contato</span>
+          </a>
+        </div>
+      </article>
+
+      <section class="expertise">
+        <div class="expertise__card">
+          <img src="./assets/icons/expertise-icon.svg" alt="Logo expertise" class="expertise__image">
+          <h4 class="expertise__title">expertise</h4>
+          <p class="expertise__text">Expertise e dedicação para fabricar móveis de qualidade superior, atendendo a todas as necessidades.</p>
+        </div>
+        <div class="expertise__card">
+          <img src="./assets/icons/experience-icon.svg" alt="Logo expertise" class="expertise__image">
+          <h4 class="expertise__title">experiência</h4>
+          <p class="expertise__text">Apenas quem tem mais de 15 anos de experiência no mercado pode assegurar excelência em cada produto.</p>
+        </div>
+      </section>
+
+      <section id="section-contact" class="contact">
+        <div class="contact__description">
+          <p class="contact__text">Tem dúvidas ou quer saber mais sobre nossos projetos? Entre em contato com a gente pelas nossas redes sociais logo abaixo!</p>
+          <p class="contact__text">Estamos prontos para ajudar você.</p>
+        </div>
+        <div class="contact__social-networks">
+          <h5 class="contact__social-networks-title">siga nossas redes sociais</h5>
+          <ul class="contact__social-networks-list">
+            <li class="contact__social-networks-option">
+              <a href="https://www.instagram.com/ssantanaplanejados/profilecard/?igsh=MWpyODM4ZzFoNGZvYQ==" class="contact__social-networks-link">
+                <img src="./assets/icons/icon-instagram-bege.svg" alt="Instagram" class="contact__social-networks-image">
+                <span class="contact__social-networks-name">@ssantanaplanejados</span>
               </a>
-            </div>
-          </article>
-
-          <section class="expertise">
-          <div class="expertise__card">
-            <img src="./assets/icons/expertise-icon.svg" alt="Logo expertise" class="expertise__image">
-            <h4 class="expertise__title">expertise</h4>
-            <p class="expertise__text">Expertise e dedicação para fabricar móveis de qualidade superior, atendendo a todas as necessidades.</p>
-          </div>
-          <div class="expertise__card">
-            <img src="./assets/icons/experience-icon.svg" alt="Logo expertise" class="expertise__image">
-            <h4 class="expertise__title">experiência</h4>
-            <p class="expertise__text">Apenas quem tem mais de 15 anos de experiência no mercado pode assegurar excelência em cada produto.</p>
-          </div>
-          </section>
-
-          <section class="contact">
-          <div class="contact__description">
-            <p class="contact__text">Tem dúvidas ou quer saber mais sobre nossos projetos? Entre em contato com a gente pelas nossas redes sociais logo abaixo!</p>
-            <p class="contact__text">Estamos prontos para ajudar você.</p>
-          </div>
-          <div class="contact__social-networks">
-            <h5 class="contact__social-networks-title">siga nossas redes sociais</h5>
-            <ul class="contact__social-networks-list">
-              <li class="contact__social-networks-option">
-                <a href="https://www.instagram.com/ssantanaplanejados/profilecard/?igsh=MWpyODM4ZzFoNGZvYQ==" class="contact__social-networks-link">
-                  <img src="./assets/icons/icon-contact-instagram.svg" alt="Instagram" class="contact__social-networks-image">
-                  <span class="contact__social-networks-name">@ssantanaplanejados</span>
-                </a>
-              </li>
-              <li class="contact__social-networks-option">
-                <a href="https://www.facebook.com/ssantanaplanejados?mibextid=LQQJ4d" class="contact__social-networks-link">
-                  <img src="./assets/icons/icon-contact-facebook.svg" alt="Facebook" class="contact__social-networks-image">
-                  <span class="contact__social-networks-name">/ssantanaplanejados</span>
-                </a>
-              </li>
-              <li class="contact__social-networks-option">
-                <a href="https://www.tiktok.com/@ssantanaplanejados?_t=ZM-8s8Nen3ds3R&_r=1" class="contact__social-networks-link">
-                  <img src="./assets/icons/icon-contact-tiktok.svg" alt="TikTok" class="contact__social-networks-image">
-                  <span class="contact__social-networks-name">@ssantanaplanejados</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          </section>
+            </li>
+            <li class="contact__social-networks-option">
+              <a href="https://www.facebook.com/ssantanaplanejados?mibextid=LQQJ4d" class="contact__social-networks-link">
+                <img src="./assets/icons/icon-facebook-bege.svg" alt="Facebook" class="contact__social-networks-image">
+                <span class="contact__social-networks-name">/ssantanaplanejados</span>
+              </a>
+            </li>
+            <li class="contact__social-networks-option">
+              <a href="https://www.tiktok.com/@ssantanaplanejados?_t=ZM-8s8Nen3ds3R&_r=1" class="contact__social-networks-link">
+                <img src="./assets/icons/icon-tiktok-bege.svg" alt="TikTok" class="contact__social-networks-image">
+                <span class="contact__social-networks-name">@ssantanaplanejados</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
           <footer class="footer">
             <div class="footer__apresentacao">
               <img src="./assets/images/logo-main-white.svg" alt="Logo Santa Móveis Planejados" class="footer__logo-mobile">
               <p class="footer__apresentacao-texto">Transformando madeira em arte!</p>
             </div>
+            <ul class="footer__menu">
+              <li class="footer__menu--option">
+                <a href="#section-home" class="footer__menu--link">Home</a>
+              </li>
+              <li class="footer__menu--option">
+                <a href="#section-about" class="footer__menu--link">Sobre</a>
+              </li>
+              <li class="footer__menu--option">
+                <a href="#section-services" class="footer__menu--link">Serviços</a>
+              </li>
+              <li class="footer__menu--option">
+                <a href="#section-projects" class="footer__menu--link">Projetos</a>
+              </li>
+              <li class="footer__menu--option">
+                <a href="#section-contact" class="footer__menu--link">Contato</a>
+              </li>
+            </ul>
+            <div class="footer__informacoes">
+              <span class="footer__informacoes--whatsapp" style="display: flex; align-items: center;">
+                <img src="./assets/icons/icon-whatsapp-branco.svg" alt="WhatsApp" style="width: 20px; height: 20px; margin-right: 5px;">
+                <a href="https://wa.me/5519984445524?text=Ol%C3%A1!" class="footer__informacoes--celular whatsapp-link">
+                    19 98444-5524
+                </a>
+            </span>                                               
+              <p class="footer__informacoes--redestitulo">Siga nossas redes sociais</p>
+              <div class="footer__informacoes--redes">
+                <a href="https://www.instagram.com/ssantanaplanejados/profilecard/?igsh=MWpyODM4ZzFoNGZvYQ==">
+                  <img src="./assets/icons/icon-instagram-branco.svg" alt="Instagram da Marcenaria" class="footer__informacoes--icon footer__informacoes--instagram">
+                </a>
+                <a href="https://www.facebook.com/ssantanaplanejados?mibextid=LQQJ4d">
+                  <img src="./assets/icons/icon-facebook-branco.svg" alt="Facebook da Marcenaria" class="footer__informacoes--icon footer__informacoes--face">
+                </a>
+                <a href="https://www.tiktok.com/@ssantanaplanejados?_t=ZM-8s8Nen3ds3R&_r=1">
+                  <img src="./assets/icons/icon-tiktok-branco.svg" alt="TikTok da Marcenaria" class="footer__informacoes--icon footer__informacoes--tiktok">
+                </a>
+              </div>
+            </div>
+
+            <p class="copyright">&copy; 2024 Santana Móveis Planejados. Todos os direitos reservados.</p>
           </footer>
     </main>
 
