@@ -246,24 +246,30 @@ p, h1, h2, h3, h4, h5 , h6 {
 
 .about-us__buttonbg {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-self: center;
     text-align: center;
+    width: 70%;
+    background-color: var(--cor-bege-médio);
+    padding: 0.4rem;
+    border-radius: 1.2rem;
+    margin: 1rem 0 1.5rem;
+    box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.15);
 }
 
 .about-us__button {
     text-decoration: none;
     text-transform: uppercase;
-    margin: 1rem 0 1.5rem;
 }
 
 .about-us__link {
+    display: inline-block;
     padding: 0.5rem 0.8rem;
     color: var(--cor-preto);
     background-color: var(--cor-bege-médio);
-    border-radius: 1rem;
-    word-wrap: break-word;
+    border-radius: 1.2rem;
     font-size: 1.2rem;
+    font-weight: 500;
+    font-family: var(--fonte-titulos);
     line-height: 1.5rem;
     border: 1px solid var(--cor-preto);
 }
