@@ -23,7 +23,7 @@ html {
 body {
     font-size: 1rem;
     color: var(--cor-preto);
-    background-color: var(--cor-branco-gelo);
+    background-color: var(--cor-branco-quente);
     font-family: var(--fonte-corpo);
 }
 
