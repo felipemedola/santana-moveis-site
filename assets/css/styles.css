@@ -17,7 +17,6 @@
 html {
     font-size: 18px;
     scroll-behavior: smooth;
-    background-color: var(--cor-branco-quente);
 }
 
 body {
