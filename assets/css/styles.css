@@ -192,6 +192,7 @@ p, h1, h2, h3, h4, h5 , h6 {
     gap: 1.1rem;
     margin: 2.5rem 1rem;
     box-sizing: border-box;
+    background-color: var(--cor-branco-gelo);
 }
 
 .project-cards__card {
@@ -463,6 +464,7 @@ p, h1, h2, h3, h4, h5 , h6 {
     flex-direction: column;
     gap: 1.2rem;
     padding: 2.5rem 1rem;
+    background-color: var(--cor-branco-gelo);
 }
 
 .contact__description {
