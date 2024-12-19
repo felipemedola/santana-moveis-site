@@ -32,11 +32,17 @@ p, h1, h2, h3, h4, h5 , h6 {
 }
 
 .header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--cor-branco-quente);
+    padding: calc(env(safe-area-inset-top) + 0.45rem) 0.9rem 0.45rem; 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: var(--cor-branco-quente);
-    padding: 0.45rem 0.9rem;
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .header__menu-btn {
@@ -63,6 +69,7 @@ p, h1, h2, h3, h4, h5 , h6 {
 .header__logo-mobile {
     width: 80%;
 }
+
 
 /* Menu Lateral Começo*/
 
