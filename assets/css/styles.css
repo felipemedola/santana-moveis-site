@@ -391,7 +391,7 @@ p, h1, h2, h3, h4, h5 , h6 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../images/info-projects-bg.webp');
+    background-image: url('../images/mobile/info-projects-bg.webp');
 }
 
 .info-projects__text {
