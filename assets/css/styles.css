@@ -619,3 +619,21 @@ p, h1, h2, h3, h4, h5 , h6 {
 }
 
 /* Botão Whatsapp Final*/
+
+@media (min-width: 768px) {
+    html {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 1024px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1440px) {
+    html {
+        font-size: 22px;
+    }
+}
