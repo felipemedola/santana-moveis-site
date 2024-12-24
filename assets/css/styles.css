@@ -624,6 +624,27 @@ p, h1, h2, h3, h4, h5 , h6 {
     html {
         font-size: 19px;
     }
+
+    .header {
+        padding: 0 4rem;
+    }
+
+    .header__menu-btn {
+        font-size: 2rem;
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .menu-icon {
+        width: 3rem; 
+        height: 3rem; 
+    }
+    
+    .header__logo-mobile {
+        width: 60%;
+    }
+
+    
 }
 
 @media (min-width: 1024px) {
