@@ -70,12 +70,36 @@
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="5000">
                 <picture>
-                  <img src="./assets/images/mobile/main-carousel.webp" class="d-block w-100" alt="Cozinha planejada">
-                </picture>
+                  <source 
+                    srcset="./assets/images/desktop-large/main-carousel.webp" 
+                    media="(min-width: 1440px)">
+                  <source 
+                    srcset="./assets/images/desktop-small/main-carousel.webp" 
+                    media="(min-width: 1024px)">
+                  <source 
+                    srcset="./assets/images/tablet/main-carousel.webp" 
+                    media="(min-width: 768px)">
+                  <img 
+                    src="./assets/images/mobile/main-carousel.webp" 
+                    class="d-block w-100" 
+                    alt="Cozinha planejada">
+                </picture>                
               </div>
               <div class="carousel-item" data-bs-interval="5000">
                 <picture>
-                  <img src="./assets/images/mobile/main-carousel2.webp" class="d-block w-100" alt="Cozinha planejada">
+                  <source 
+                    srcset="./assets/images/desktop-large/main-carousel2.webp" 
+                    media="(min-width: 1440px)">
+                  <source 
+                    srcset="./assets/images/desktop-small/main-carousel2.webp" 
+                    media="(min-width: 1024px)">
+                  <source 
+                    srcset="./assets/images/tablet/main-carousel2.webp" 
+                    media="(min-width: 768px)">
+                  <img 
+                    src="./assets/images/mobile/main-carousel2.webp" 
+                    class="d-block w-100" 
+                    alt="Cozinha planejada">
                 </picture>
               </div>
             </div>
