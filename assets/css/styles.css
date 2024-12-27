@@ -254,8 +254,8 @@ p, h1, h2, h3, h4, h5 , h6 {
 }
 
 .about-us__buttonbg {
-    display: flex;
     align-self: center;
+    justify-self: center;
     text-align: center;
     width: 70%;
     background-color: var(--cor-bege-médio);
@@ -534,6 +534,7 @@ p, h1, h2, h3, h4, h5 , h6 {
 }
 
 .footer__logo-mobile {
+    display: inline-block;
     width: 100%;
 }
 
@@ -625,6 +626,10 @@ p, h1, h2, h3, h4, h5 , h6 {
         font-size: 19px;
     }
 
+    body {
+        justify-items: center;
+    }
+
     .header {
         padding: 0 4rem;
     }
@@ -644,7 +649,36 @@ p, h1, h2, h3, h4, h5 , h6 {
         width: 60%;
     }
 
+    .project-cards {
+        margin-top: 1rem;
+    }
+
+    .about-us__buttonbg {
+        width: 50%;
+        display: flex;
+    }
     
+    .about-us__link {
+        display: inline-block;
+        width: 100%;
+        padding: 0.5rem 0.8rem;
+        color: var(--cor-preto);
+        background-color: var(--cor-bege-médio);
+        border-radius: 1.2rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-family: var(--fonte-titulos);
+        line-height: 1.5rem;
+        border: 1px solid var(--cor-preto);
+    }
+
+    .info-projects {
+        background-image: url('../images/tablet/info-projects-bg.webp');
+    }
+
+    .footer__logo-mobile {
+        width: 70%;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -656,5 +690,3 @@ p, h1, h2, h3, h4, h5 , h6 {
 @media (min-width: 1440px) {
     html {
         font-size: 22px;
-    }
-}
